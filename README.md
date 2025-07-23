@@ -13,7 +13,7 @@ A Swift package providing standardized spacing constants and convenient `EdgeIns
 - Supports every combination of direction:
   - Single edge: `.top8`, `.leading16`, etc.
   - Two edges: `.vertical12`, `.horizontal24`, etc.
-  - Three edges: `.topLeadingTrailing8`, etc.
+  - Three edges: `.topLeadingTrailing8`, etc. (WIP)
   - All edges: `.all16`
 
 ---
