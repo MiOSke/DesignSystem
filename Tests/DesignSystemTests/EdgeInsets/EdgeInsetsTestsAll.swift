@@ -1,6 +1,6 @@
 //
 //  EdgeInsetTestsAll.swift
-//  DesignSystem
+//  DesignSystemTests
 //
 //  Created by Michael Kampouris on 7/22/25.
 //

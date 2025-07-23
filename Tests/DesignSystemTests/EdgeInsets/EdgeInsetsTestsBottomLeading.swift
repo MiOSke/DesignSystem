@@ -1,6 +1,6 @@
 //
 //  EdgeInsetsTestsBottomLeading.swift
-//  DesignSystem
+//  DesignSystemTests
 //
 //  Created by Michael Kampouris on 7/23/25.
 //
