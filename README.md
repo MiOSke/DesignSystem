@@ -1,4 +1,4 @@
-# DesignSystemSpacing
+# DesignSystem
 
 A Swift package providing standardized spacing constants and convenient `EdgeInsets` extensions based on Apple’s Human Interface Guidelines (HIG). This utility is designed for both SwiftUI and UIKit, helping teams enforce visual consistency across their apps.
 
