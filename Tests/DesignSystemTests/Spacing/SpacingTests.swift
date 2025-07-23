@@ -11,17 +11,17 @@ import XCTest
 final class SpacingTests: XCTestCase {
     
     func testSpacingValues() {
-        XCTAssertEqual(Spacing.p0, 0)
-        XCTAssertEqual(Spacing.p1, 4)
-        XCTAssertEqual(Spacing.p2, 8)
-        XCTAssertEqual(Spacing.p3, 12)
-        XCTAssertEqual(Spacing.p4, 16)
-        XCTAssertEqual(Spacing.p5, 20)
-        XCTAssertEqual(Spacing.p6, 24)
-        XCTAssertEqual(Spacing.p7, 28)
-        XCTAssertEqual(Spacing.p8, 32)
-        XCTAssertEqual(Spacing.p9, 36)
-        XCTAssertEqual(Spacing.p10, 40)
+        XCTAssertEqual(Spacing.p0, Constants.zero)
+        XCTAssertEqual(Spacing.p1, Constants.four)
+        XCTAssertEqual(Spacing.p2, Constants.eight)
+        XCTAssertEqual(Spacing.p3, Constants.twelve)
+        XCTAssertEqual(Spacing.p4, Constants.sixteen)
+        XCTAssertEqual(Spacing.p5, Constants.twenty)
+        XCTAssertEqual(Spacing.p6, Constants.twentyFour)
+        XCTAssertEqual(Spacing.p7, Constants.twentyEight)
+        XCTAssertEqual(Spacing.p8, Constants.thirtyTwo)
+        XCTAssertEqual(Spacing.p9, Constants.thirtySix)
+        XCTAssertEqual(Spacing.p10, Constants.forty)
     }
     
 }
