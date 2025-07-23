@@ -16,7 +16,13 @@ import CoreGraphics
 /// Example usage:
 /// ```swift
 /// HStack(spacing: Spacing.p2) { ... }
-/// .padding(.horizontal, Spacing.p4)
+/// .padding(Spacing.p4)
+/// ```
+///  or
+///
+/// ```swift
+/// HStack(spacing: .p2) { ... }
+/// .padding(.p4)
 /// ```
 public enum Spacing {
     
