@@ -11,95 +11,83 @@ import SwiftUI
 
 final class EdgeInsetsTestsTrailing: XCTestCase {
 
-    private let zero: CGFloat = 0
-    private let four: CGFloat = 4
-    private let eight: CGFloat = 8
-    private let twelve: CGFloat = 12
-    private let sixteen: CGFloat = 16
-    private let twenty: CGFloat = 20
-    private let twentyFour: CGFloat = 24
-    private let twentyEight: CGFloat = 28
-    private let thirtyTwo: CGFloat = 32
-    private let thirtySix: CGFloat = 36
-    private let forty: CGFloat = 40
-
     func testTrailing4() {
         let inset = EdgeInsets.trailing4
-        XCTAssertEqual(inset.top, zero)
-        XCTAssertEqual(inset.leading, zero)
-        XCTAssertEqual(inset.bottom, zero)
-        XCTAssertEqual(inset.trailing, four)
+        XCTAssertEqual(inset.top, Constants.zero)
+        XCTAssertEqual(inset.leading, Constants.zero)
+        XCTAssertEqual(inset.bottom, Constants.zero)
+        XCTAssertEqual(inset.trailing, Constants.four)
     }
 
     func testTrailing8() {
         let inset = EdgeInsets.trailing8
-        XCTAssertEqual(inset.top, zero)
-        XCTAssertEqual(inset.leading, zero)
-        XCTAssertEqual(inset.bottom, zero)
-        XCTAssertEqual(inset.trailing, eight)
+        XCTAssertEqual(inset.top, Constants.zero)
+        XCTAssertEqual(inset.leading, Constants.zero)
+        XCTAssertEqual(inset.bottom, Constants.zero)
+        XCTAssertEqual(inset.trailing, Constants.eight)
     }
 
     func testTrailing12() {
         let inset = EdgeInsets.trailing12
-        XCTAssertEqual(inset.top, zero)
-        XCTAssertEqual(inset.leading, zero)
-        XCTAssertEqual(inset.bottom, zero)
-        XCTAssertEqual(inset.trailing, twelve)
+        XCTAssertEqual(inset.top, Constants.zero)
+        XCTAssertEqual(inset.leading, Constants.zero)
+        XCTAssertEqual(inset.bottom, Constants.zero)
+        XCTAssertEqual(inset.trailing, Constants.twelve)
     }
 
     func testTrailing16() {
         let inset = EdgeInsets.trailing16
-        XCTAssertEqual(inset.top, zero)
-        XCTAssertEqual(inset.leading, zero)
-        XCTAssertEqual(inset.bottom, zero)
-        XCTAssertEqual(inset.trailing, sixteen)
+        XCTAssertEqual(inset.top, Constants.zero)
+        XCTAssertEqual(inset.leading, Constants.zero)
+        XCTAssertEqual(inset.bottom, Constants.zero)
+        XCTAssertEqual(inset.trailing, Constants.sixteen)
     }
 
     func testTrailing20() {
         let inset = EdgeInsets.trailing20
-        XCTAssertEqual(inset.top, zero)
-        XCTAssertEqual(inset.leading, zero)
-        XCTAssertEqual(inset.bottom, zero)
-        XCTAssertEqual(inset.trailing, twenty)
+        XCTAssertEqual(inset.top, Constants.zero)
+        XCTAssertEqual(inset.leading, Constants.zero)
+        XCTAssertEqual(inset.bottom, Constants.zero)
+        XCTAssertEqual(inset.trailing, Constants.twenty)
     }
 
     func testTrailing24() {
         let inset = EdgeInsets.trailing24
-        XCTAssertEqual(inset.top, zero)
-        XCTAssertEqual(inset.leading, zero)
-        XCTAssertEqual(inset.bottom, zero)
-        XCTAssertEqual(inset.trailing, twentyFour)
+        XCTAssertEqual(inset.top, Constants.zero)
+        XCTAssertEqual(inset.leading, Constants.zero)
+        XCTAssertEqual(inset.bottom, Constants.zero)
+        XCTAssertEqual(inset.trailing, Constants.twentyFour)
     }
 
     func testTrailing28() {
         let inset = EdgeInsets.trailing28
-        XCTAssertEqual(inset.top, zero)
-        XCTAssertEqual(inset.leading, zero)
-        XCTAssertEqual(inset.bottom, zero)
-        XCTAssertEqual(inset.trailing, twentyEight)
+        XCTAssertEqual(inset.top, Constants.zero)
+        XCTAssertEqual(inset.leading, Constants.zero)
+        XCTAssertEqual(inset.bottom, Constants.zero)
+        XCTAssertEqual(inset.trailing, Constants.twentyEight)
     }
 
     func testTrailing32() {
         let inset = EdgeInsets.trailing32
-        XCTAssertEqual(inset.top, zero)
-        XCTAssertEqual(inset.leading, zero)
-        XCTAssertEqual(inset.bottom, zero)
-        XCTAssertEqual(inset.trailing, thirtyTwo)
+        XCTAssertEqual(inset.top, Constants.zero)
+        XCTAssertEqual(inset.leading, Constants.zero)
+        XCTAssertEqual(inset.bottom, Constants.zero)
+        XCTAssertEqual(inset.trailing, Constants.thirtyTwo)
     }
 
     func testTrailing36() {
         let inset = EdgeInsets.trailing36
-        XCTAssertEqual(inset.top, zero)
-        XCTAssertEqual(inset.leading, zero)
-        XCTAssertEqual(inset.bottom, zero)
-        XCTAssertEqual(inset.trailing, thirtySix)
+        XCTAssertEqual(inset.top, Constants.zero)
+        XCTAssertEqual(inset.leading, Constants.zero)
+        XCTAssertEqual(inset.bottom, Constants.zero)
+        XCTAssertEqual(inset.trailing, Constants.thirtySix)
     }
 
     func testTrailing40() {
         let inset = EdgeInsets.trailing40
-        XCTAssertEqual(inset.top, zero)
-        XCTAssertEqual(inset.leading, zero)
-        XCTAssertEqual(inset.bottom, zero)
-        XCTAssertEqual(inset.trailing, forty)
+        XCTAssertEqual(inset.top, Constants.zero)
+        XCTAssertEqual(inset.leading, Constants.zero)
+        XCTAssertEqual(inset.bottom, Constants.zero)
+        XCTAssertEqual(inset.trailing, Constants.forty)
     }
 }
