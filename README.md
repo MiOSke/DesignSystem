@@ -25,7 +25,7 @@ A Swift package providing standardized spacing constants and convenient `EdgeIns
 Add this package to your `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/MiOSke/DesignSystem.git", from: "1.0.3")
+.package(url: "https://github.com/MiOSke/DesignSystem.git", from: "1.0.4")
 ```
 
 Or use Xcode:
