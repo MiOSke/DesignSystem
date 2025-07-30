@@ -81,6 +81,12 @@ This package does **not** collect or track any data. A valid `PrivacyInfo.xcpriv
 
 ---
 
+## 🙏 Acknowledgments
+
+A big thanks to [@bartcone](https://github.com/bartcone) for inspiring the creation of this package!
+
+---
+
 ## 🧩 License
 
 MIT License. See [LICENSE](./LICENSE) for details.
